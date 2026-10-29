@@ -1,0 +1,10 @@
+{
+  "description": "Explore Vinnytsia's budget allocations interactively with a choropleth map, enabling users to visualize district-wise financial data and trends.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

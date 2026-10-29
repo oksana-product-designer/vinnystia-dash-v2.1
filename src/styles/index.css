@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Math&family=Open+Sans:wght@600;700&display=swap');
+@import 'tailwindcss' source(none);
+@source '../../**/*.{js,ts,jsx,tsx}';
+@import 'tw-animate-css';
+@import './default_theme.css';
+@import './globals.css';
+
+@font-face {
+  font-family: 'VinnytsiaSansReg:Book';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/VinnytsiaSansReg-Book.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'VinnytsiaSansBold:Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/VinnytsiaSansBold-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'VinnytsiaSerif:Book';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/VinnytsiaSerif-Book.woff2') format('woff2');
+}
+
+@theme {
+  --font-sans: 'VinnytsiaSansReg:Book', sans-serif;
+}
